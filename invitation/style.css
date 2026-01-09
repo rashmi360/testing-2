@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    border: 2px solid #999;
+    width: 350px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.Date {
+    letter-spacing: 4px;
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background: goldenrod;
+    margin: 20px auto;
+}
+
+h2 {
+    letter-spacing: 3px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.place {
+    color: #aaa;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.formal {
+    font-style: italic;
+    margin: 20px 0;
+    color: #777;
+}
+
+.btn {
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 14px;
+}
