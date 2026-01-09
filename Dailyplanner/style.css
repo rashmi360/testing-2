@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f5fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Outer card */
+body > div {
+    background-color: #ffffff;
+    padding: 28px 30px;
+    border-radius: 22px;
+    width: 360px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    border: 2px solid #e6e9f0;
+}
+
+/* Title */
+.planner {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #111;
+}
+
+/* Date */
+.Date {
+    text-align: center;
+    font-size: 13px;
+    color: #b5b8bf;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+/* Divider line */
+.Date::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #999;
+    margin-top: 12px;
+    opacity: 0.5;
+}
+
+/* Task row */
+.task {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 9px 0;
+    font-size: 14px;
+    color: #222;
+}
+
+/* Time */
+.time {
+    min-width: 70px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Add vertical bar after time */
+.time::after {
+    content: " |";
+    color: #bbb;
+    margin-left: 6px;
+}
+
+/* Work text */
+.work {
+    color: #222;
+    line-height: 1.3;
+}
+
+/* Lunch break highlight (12:00PM) */
+.task:nth-of-type(5) .work {
+    color: #22aa22;
+    font-weight: 600;
+}
