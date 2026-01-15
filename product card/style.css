@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eee;
+}
+
+.card {
+  background: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 25px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.badge {
+  background: #f1f1f1;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image img {
+  width: 200px;
+}
+
+.brand {
+  color: gray;
+  font-size: 14px;
+}
+
+.details h2 {
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+}
+.card:hover .image img {
+  transform: scale(1.1) rotate(-3deg);
+}
+.cart-btn {
+  transition: background 0.3s ease, transform 0.3s ease;
+}
