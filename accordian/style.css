@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(145deg, rgb(57, 57, 238), rgb(230, 69, 69));
+    background: linear-gradient(145deg, rgb(34,34,241), rgb(242, 106, 242));
     min-height: 100vh;
     padding: 40ox 20px;
 }
@@ -37,7 +37,7 @@ h1{
 
 .faq-question{
     display: block;
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
     font-size: 1.5rem;
     font-weight: 600;
@@ -46,7 +46,7 @@ h1{
 }
 
 .faq-question:hover{
-    background: #f5f5f5;
+    background: (211,206,201);
 }
 
 .faq-question::after{
@@ -55,7 +55,7 @@ h1{
     right: 20px;
     transform: translateY(-50%);
     font-size: 1.rem;
-    color: rgb(0, 123, 255);
+    color: rgb(68, 108, 150);
     transition: transform 0.3s;
 }
 

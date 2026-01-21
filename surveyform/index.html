@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skillyards Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="star">
+        <span>☀️</span>
+        <span class="moon"></span>
+        <span>🌙</span>
+      </div>
+
+      <h2>Skillyards Survey Form</h2>
+      <p class="sub">Interactive Feedback Form</p>
+
+      <label>Full Name</label>
+      <input type="text" placeholder="John Doe">
+
+      <label>How would you rate our speed?</label>
+     <div class="star-rating">
+                    <input type="checkbox" name="star"id="s5"><label for="s5">*</label>
+                    <input type="checkbox" name="star" id="s5"><label for="s4">*</label>
+                    <input type="checkbox" name="star" id="s5"><label for="s3">*</label>
+                    <input type="checkbox" name="star" id="s5"><label for="s2">*</label>
+                    <input type="checkbox" name="star" id="s5"><label for="s1">*</label>
+                 </div>
+
+      <label>Interface Complexity</label>
+      <input type="range" min="0" max="100">
+      <div class="range-text">
+        <span>Simple</span>
+        <span>Advanced</span>
+      </div>
+
+      <label>Launch Date</label>
+      <input type="date">
+
+      <label>Mockup Upload</label>
+      <div class="upload-box">
+        Click to upload image
+      </div>
+
+      <button>Send Feedback</button>
+    </div>
+  </div>
+
+</body>
+</html>
